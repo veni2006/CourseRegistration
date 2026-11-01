@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+*/node_modules/
+
+# Environment files with sensitive credentials
+.env
+*.env
+!.env.example
+backend/.env
+
+# Build outputs
+dist/
+frontend/dist/
+.angular/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
